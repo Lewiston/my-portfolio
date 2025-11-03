@@ -1,23 +1,25 @@
 
 import './App.css'
+import About from './components/About/About'
+import Clients from './components/Clients/Clients'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Intro from './components/Intro/Intro'
-import Navbar from './components/Navbar/Navbar'
-import Skill from './components/Skill/Skill'
-import Works from './components/Works/Works'
+import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
 
 function App() {
 
   return (
-    <div className="app">
-      <Navbar/>
-      <Intro/>
-      <Skill/>
-      <Works/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <>
+      <Header />
+      <div className="app">
+        <Hero />
+        <Clients />
+        <About />
+        <Contact />
+      </div>
+      <Footer />
+    </>
   
   )
 }

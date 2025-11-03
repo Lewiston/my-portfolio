@@ -1,6 +1,24 @@
 @font-face {
-  font-family: DM-Sans;
+  font-family: "DM-Sans";
   src: url(../public/font/DMSans-VariableFont.ttf);
+}
+
+@font-face {
+  font-family: "DM-Sans-Italic";
+  src: url(../public/font/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+:root {
+
+  /* Colors */
+  --color-black-100: hsl(0, 0%, 6%);
+  --color-black-200: hsl(230, 30%, 4%);
+  --color-black-blur: hsla(230, 30%, 4%, 0.5);
+  --color-white-100: hsl(0, 0%, 100%);
+  --color-white-200: hsl(0, 0%, 88%);
+  --color-accent-100: hsl(9, 100%, 64%);
+  --color-accent-200: hsl(9, 100%, 70%);
+  --color-grey-100: rgb(50, 50, 50);
 }
 
 * {
@@ -9,12 +27,76 @@
   box-sizing: border-box;
   text-decoration: none;
   background: transparent;
-  font-family: DM-Sans, sans-serif;
+  font-family: DM-Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 body {
-  background: rgb(30, 30, 30);
-  color: white;
+  background: var(--color-black-100);
+  color: var(--color-white-100);
   overflow: hidden;
   overflow-y: scroll;
+}
+
+.container {
+  width: 90%;
+  padding: 10rem 0 0;
+  max-width: 1500px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+.heading {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-wrap: pretty;
+  letter-spacing: 1.2px;
+}
+
+.btn {
+  background-color: var(--color-accent-100);
+  color: var(--color-black-100);
+  border: none;
+  border-radius: 100px;
+  padding: 0.8rem 2.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: var(--color-accent-200);
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+  .btn {
+    padding: 0.6rem 1.5rem;
+  }
+
+  .container {
+    padding: 5rem 0 0;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  
+  .container {
+    padding: 4rem 0 0;
+  }
 }
