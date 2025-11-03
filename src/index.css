@@ -16,8 +16,8 @@
   --color-black-blur: hsla(230, 30%, 4%, 0.5);
   --color-white-100: hsl(0, 0%, 100%);
   --color-white-200: hsl(0, 0%, 88%);
-  --color-accent-100: hsl(9, 100%, 64%);
-  --color-accent-200: hsl(9, 100%, 70%);
+  --color-accent-100: hsl(9, 100%, 60%);
+  --color-accent-200: hsl(9, 100%, 68%);
   --color-grey-100: rgb(50, 50, 50);
 }
 
@@ -27,7 +27,7 @@
   box-sizing: border-box;
   text-decoration: none;
   background: transparent;
-  font-family: DM-Sans;
+  font-family: "DM-Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
@@ -42,7 +42,7 @@ body {
 
 .container {
   width: 90%;
-  padding: 10rem 0 0;
+  padding: 8rem 0 0;
   max-width: 1500px;
 }
 
@@ -65,7 +65,7 @@ a {
 
 .btn {
   background-color: var(--color-accent-100);
-  color: var(--color-black-100);
+  color: var(--color-white-100);
   border: none;
   border-radius: 100px;
   padding: 0.8rem 2.5rem;

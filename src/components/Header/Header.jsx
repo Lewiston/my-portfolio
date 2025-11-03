@@ -10,7 +10,7 @@ const Header = () => {
         <h1>Lewiston.</h1>
         <div className="header-btns">
           <img src={themeButton} alt="" className="theme-btn" />
-          <Link to='contact' smooth={true} offset={50} duration={500} className="btn">Hire Me</Link>
+          <Link to='contact' smooth={true} offset={0} duration={500} className="btn">Hire Me</Link>
         </div>
       </div>
     </header>

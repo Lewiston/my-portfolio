@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-white-200);
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 4rem;
     /* min-height: 50vh; */
     margin-top: 8rem;
@@ -52,6 +52,8 @@
     .hero {
         flex-direction: column-reverse;
         padding: 2rem;
+        margin-top: 5rem;
+        position: static;
     }
 
     .hero-text {
@@ -70,6 +72,7 @@
 
 @media screen and (max-width: 500px) {
     .hero {
-        padding: 1rem;
+        padding: 0rem;
+        margin-top: 0rem;
     }
 }
