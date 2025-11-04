@@ -80,6 +80,10 @@ a {
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
+  * {
+    font-size: 20px;
+  }
+
   .btn {
     padding: 0.6rem 1rem;
   }
@@ -96,5 +100,19 @@ a {
 @media screen and (max-width: 750px) {
   .container {
     padding: 4rem 0 0;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  * {
+    font-size: 16px;
+  }
+
+  .heading {
+    font-size: 28px;
   }
 }
