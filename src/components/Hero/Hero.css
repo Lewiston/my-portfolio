@@ -57,6 +57,7 @@
   .hero-image {
     width: 100%;
     position: static;
+    padding-top: 3rem;
     margin-bottom: 2rem;
   }
 

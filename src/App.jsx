@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <Clients />
         <About />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </div>
       <Footer />
