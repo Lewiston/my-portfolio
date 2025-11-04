@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.clients .headings {
+  text-align: center;
+}
+
 .slider-container {
   width: 100%;
   overflow: hidden;
