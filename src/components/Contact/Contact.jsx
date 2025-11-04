@@ -57,6 +57,7 @@ const Contact = () => {
         <a
           className="book-appointment"
           href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3HW6Ahhr4dcbs3aYCXPkpOOzSTiGy91RU9HFAsLEriqap6mWsaWxlRz44wQVs-RiFpNHmA0GB-"
+          target="_blank"
         >
           🗓️ <span>Book an Appointment</span>
         </a>
