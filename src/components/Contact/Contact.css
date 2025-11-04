@@ -1,33 +1,56 @@
 .contact {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width: 800px;
-    margin: 4rem auto 0;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 800px;
+  margin: 4rem auto 0;
+  gap: 2rem;
 }
 
 .contact-form input,
 .contact-form textarea {
-    background-color: var(--color-black-200);
-    border: 1px solid var(--color-grey-100);
-    border-radius: 0.5rem;
-    outline: none;
-    padding: 0.5rem 1rem;
-    resize: none;
-    color: var(--color-white-100);
+  background-color: var(--color-black-200);
+  border: 1px solid var(--color-grey-100);
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  resize: none;
+  color: var(--color-white-100);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border: 1px solid var(--color-accent-200); 
+  border: 1px solid var(--color-accent-200);
 }
 
+.or {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.or .line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-grey-100);
+}
+
+.book-appointment span {
+  cursor: pointer;
+  color: var(--color-accent-100);
+  transition: 0.4s;
+}
+
+.book-appointment:hover span {
+  font-size: 21px;
+  color: var(--color-accent-200);
+}

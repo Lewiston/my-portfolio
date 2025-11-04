@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import { Link, Element } from "react-scroll";
-import './Header.css'
-import themeButton from '/assets/close.png'
+import "./Header.css";
+import themeButton from "/assets/close.png";
 
 const Header = () => {
   return (
@@ -10,11 +10,19 @@ const Header = () => {
         <h1>Lewiston.</h1>
         <div className="header-btns">
           <img src={themeButton} alt="" className="theme-btn" />
-          <Link to='contact' smooth={true} offset={0} duration={500} className="btn">Hire Me</Link>
+          <Link
+            to="contact"
+            smooth={true}
+            offset={0}
+            duration={500}
+            className="btn"
+          >
+            Hire Lewis
+          </Link>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
