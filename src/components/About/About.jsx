@@ -40,7 +40,7 @@ const About = () => {
           </p>
 
           <p>
-            <b>Product Design Lead — Zotech Designs, February 2024 - Present</b>
+            <b>Product Design Lead — Zotech Company Ltd, February 2024 - Present</b>
             <br />
             Leading the development of functional, scalable digital products
             across all sectors. Built in-house products like WorkNova and
