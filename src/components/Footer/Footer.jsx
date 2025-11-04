@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:m11lewiston#@gmail.com">Gmail</a>
+            <a href="mailto:m11lewiston#@gmail.com">Email</a>
           </li>
         </ul>
 

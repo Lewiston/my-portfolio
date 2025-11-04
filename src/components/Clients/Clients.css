@@ -5,7 +5,7 @@
   }
 
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
@@ -16,24 +16,26 @@
   align-items: center;
 }
 
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .logo-slider > img {
-  object-fit: contain;
-  height: 60px;
-  width: 25%;
   flex: 0 0 auto;
+  object-fit: contain;
+  height: 100px;
+  /* width: auto; */
+  margin: 0 4rem;
 }
 
 .logo-slider {
   display: flex;
   flex-direction: row;
+  width: max-content;
   align-items: center;
-  animation: slide 15s linear infinite;
-}
-
-.slider-container {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+  animation: 25s slide linear infinite;
 }
 
 .slider-container:hover .logo-slider {
@@ -67,9 +69,5 @@
   .slider-container::before,
   .slider-container::after {
     width: 150px;
-  }
-
-  .clients .heading {
-    text-align: center;
   }
 }

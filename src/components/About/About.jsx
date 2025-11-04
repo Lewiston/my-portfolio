@@ -21,9 +21,10 @@ const About = () => {
             products that serve people and strengthen communities. I blend
             creative vision, user empathy, and technical skills in Figma, Adobe
             Xd, Sketch, Photoshop, Illustrator, HTML, CSS, JavaScript, React Js,
-            React Native, Tailwind CSS, and Bootstrap to bridge design and
-            development. I believe in incremental progress—1% better each day.
-            Let's build something great together.
+            React Native, Tailwind CSS, Bootstrap, WordPress, Shopify, and
+            GoHighLevel to bridge design and development. I believe in
+            incremental progress—1% better each day. Let's build something great
+            together.
           </p>
         </div>
 
