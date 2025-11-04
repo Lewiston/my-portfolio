@@ -1,74 +1,75 @@
-
-
 /* Slide animation */
 @keyframes slide {
-    from {
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(0);
+  }
 
-    to {
-        transform: translateX(-100%);
-    }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .clients {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
 }
 
-.logo-slider>img {
-    object-fit: contain;
-    height: 60px;
-    width: 25%;
-    flex: 0 0 auto;
+.logo-slider > img {
+  object-fit: contain;
+  height: 60px;
+  width: 25%;
+  flex: 0 0 auto;
 }
 
 .logo-slider {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    animation: slide 15s linear infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: slide 15s linear infinite;
 }
 
 .slider-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .slider-container:hover .logo-slider {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .slider-container::before {
-    content: "";
-    width: 300px;
-    height: 100px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: linear-gradient(to right, #0f0f0f, #0f0f0f00);
-    z-index: 5;
+  content: "";
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #0f0f0f, #0f0f0f00);
+  z-index: 5;
 }
 
 .slider-container::after {
-    content: "";
-    width: 300px;
-    height: 100px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background: linear-gradient(to left, #0f0f0f, #0f0f0f00);
-    z-index: 5;
+  content: "";
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to left, #0f0f0f, #0f0f0f00);
+  z-index: 5;
 }
-
 
 /* Media queries */
 @media screen and (max-width: 850px) {
-    .slider-container::before,
-    .slider-container::after {
-        width: 150px;
-    }
+  .slider-container::before,
+  .slider-container::after {
+    width: 150px;
+  }
+
+  .clients .heading {
+    text-align: center;
+  }
 }
