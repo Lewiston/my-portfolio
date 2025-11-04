@@ -62,7 +62,7 @@
     color: var(--color-black-200);
     width: 100%;
     max-width: 600px;
-    padding: 0 2rem;
+    padding: 1rem 2rem 2rem;
   }
 
   .hero-text > span {
