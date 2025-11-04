@@ -48,7 +48,7 @@ const Contact = () => {
           required
         ></textarea>
         <button className="btn">Let's Talk</button>
-        <p className="form-response">{result}</p>
+        {result && <p className="form-response">{result}</p>}
         <div className="or">
           <div className="line"></div>
           <p>OR</p>
