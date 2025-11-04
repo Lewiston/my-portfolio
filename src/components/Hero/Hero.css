@@ -21,7 +21,7 @@
   /* min-height: 50vh; */
   margin-top: 8rem;
   position: relative;
-  animation: fade-in 2.5s;
+  animation: fade-in 1.5s;
 }
 
 .hero-text {
