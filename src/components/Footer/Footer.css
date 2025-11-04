@@ -20,6 +20,7 @@
 .footer-container > small {
   font-size: 16px;
   text-align: center;
+  color: var(--color-white-300);
 }
 
 .footer-container > ul {
