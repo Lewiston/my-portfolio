@@ -2,12 +2,13 @@ import React from "react";
 import { Link, Element } from "react-scroll";
 import "./Header.css";
 import themeButton from "/assets/close.png";
+import logo from "/assets/logos/my-logo.png";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-container container">
-        <h1>Lewiston.</h1>
+        <img src={logo} alt="" />
         <div className="header-btns">
           <img src={themeButton} alt="" className="theme-btn" />
           <Link
