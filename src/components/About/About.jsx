@@ -94,7 +94,7 @@ const About = () => {
         </div>
 
         <a href={cv} className="cv">
-          ⬇️ <span>Download My CV</span>
+          ⬇️ <span>Download My Résumé</span>
         </a>
       </div>
     </section>
