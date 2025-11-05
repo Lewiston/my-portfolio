@@ -7,8 +7,8 @@ const About = () => {
     <section className="about container">
       <div className="quote">
         <p className="quote-text">
-          "One percent better each day, mastery comes your way. Work on your
-          craft with care, small steps will get you there."
+          "Don't just do the work, tell a story. <br />
+          Your designs have meaning; make sure others can see it."
         </p>
         <span>Mbunganu Lewiston M.</span>
       </div>
@@ -40,7 +40,9 @@ const About = () => {
           </p>
 
           <p>
-            <b>Product Design Lead — Zotech Company Ltd, February 2024 - Present</b>
+            <b>
+              Product Design Lead — Zotech Company Ltd, February 2024 - Present
+            </b>
             <br />
             Leading the development of functional, scalable digital products
             across all sectors. Built in-house products like WorkNova and
