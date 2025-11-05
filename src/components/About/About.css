@@ -49,8 +49,8 @@
 }
 
 .my-journey p b {
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 600;
+  color: var(--color-white-100);
 }
 
 .cv span {
@@ -86,15 +86,5 @@
 
   .about-me {
     width: 100%;
-  }
-
-  .my-journey p b {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .my-journey p b {
-    font-size: 20px;
   }
 }

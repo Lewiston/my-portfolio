@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "/files/Mbunganu_Lewiston_front-end.pdf";
+import cv from "/files/Mbunganu_Lewiston_front-end_developer.pdf";
 import "./About.css";
 
 const About = () => {
@@ -23,75 +23,65 @@ const About = () => {
             Xd, Sketch, Photoshop, Illustrator, HTML, CSS, JavaScript, React Js,
             React Native, Tailwind CSS, Bootstrap, WordPress, Shopify, and
             GoHighLevel to bridge design and development. I believe in
-            incremental progress—1% better each day. Let's build something great
-            together.
+            incremental progress, 1% better each day.
           </p>
         </div>
 
         <div className="my-journey">
-          <h2 className="heading">Work Experience Timeline</h2>
+          <h2 className="heading">Work Experience</h2>
           <p>
-            <b>Freelancer — March 2025 - Present</b> <br />
-            Building usable and effective websites for clients including Ruby
-            Elise Designs, Biz Project Coach, and G(ART)MENTS. Focused on
-            seamless navigation and structured solutions that meet client needs.
-            <br />
-            <br />
+            My journey into digital product design began with a simple question:
+            how do you create experiences that people not only use, but
+            genuinely love? With a degree in <b>Computer Engineering</b> from
+            the <b>University of Buea</b> and expertise, I've built my career at
+            the intersection of design and code and created solutions that are
+            not only visually compelling but technically sound and feasible to
+            build.
           </p>
-
+          <br />
           <p>
+            As <b>Product Design Lead at Zotech Designs</b>, I've reduced
+            development time by over 50% by creating custom software designs
+            that balance business goals with user requirements. Currently, as a
+            <b>freelancer</b>, I deliver end-to-end solutions, from branding to
+            deployment that have generated 20% more leads for my clients.
+          </p>
+          <br />
+          <p>
+            My time as{" "}
             <b>
-              Product Design Lead — Zotech Company Ltd, February 2024 - Present
+              Project Manager and Scrum Master at Crystal House Aurora (USA)
             </b>
-            <br />
-            Leading the development of functional, scalable digital products
-            across all sectors. Built in-house products like WorkNova and
-            Workamnow, and partnered with institutions including University of
-            Buea, Xashi Tech, and Vancoop. Coordinate the internship program
-            alongside the CTO, teaching soft and technical skills—all interns
-            achieved A grades and successfully completed their programs. <br />
-            <br />
+            taught me that great products aren't just well-designed, they're
+            built by well-functioning teams. I increased business revenue by 40%
+            by optimizing revenue streams and improved team efficiency by 60%
+            through implementing agile methodologies. I also transformed
+            decision-making speed, reducing it from 72+ hours to under 24 hours
+            by visualizing business data through Excel and Power BI.
           </p>
-
+          <br />
           <p>
-            <b>Lecturer — SHIBITS, Buea, March 2025 - June 2025</b> <br />
-            Taught Software Engineering and Information Systems, covering
-            relational databases, entity-relational diagrams, and information
-            architecture for building great digital products. <br /> <br />
-          </p>
-
-          <p>
-            <b>Lecturer — RHIBMS, Buea, March 2024 - August 2024</b> <br />
-            Delivered courses on Graphic Design and Digital Marketing. Over 80%
-            of students succeeded in the 2025 Higher National Diploma (HND).
-            <br />
-            <br />
-          </p>
-
-          <p>
+            As a{" "}
             <b>
-              Product Design Mentor — Branded Architects, June 2024 - September
-              2024
+              Product Design Mentor at Branded Architects and lecturer at
+              SHIBITS and RHIBMS
             </b>
-            <br />
-            Mentored individuals new to UI/UX design. Taught design thinking,
-            user research methodologies, and techniques for developing digital
-            products that balance business goals and user needs while engaging
-            all stakeholders. <br /> <br />
+            , I've trained the next generation of designers and engineers on
+            design thinking, user research, and building scalable software
+            solutions. These experiences reinforced what drives my work: the
+            belief that exceptional digital products are born at the
+            intersection of empathy, strategy, and execution.
           </p>
-
+          <br />
           <p>
-            <b>
-              Project Manager / Scrum Master & Designer — Crystal House Aurora
-              (USA), May 2023 - June 2025
-            </b>
-            <br />
-            Worked closely with Project Manager Stephen Thompson, planning and
-            executing company projects. Optimized the main revenue stream and
-            added two additional streams, increasing company revenue by over
-            50%. Designed and developed websites for in-house and client
-            projects including One Stop Auto and Crystal House Website Redesign.
-            <br /> <br />
+            Whether I'm designing a custom software solution, mentoring emerging
+            designers, or engineering a responsive web application, my goal
+            remains the same: create experiences that solve real problems for
+            real people while driving measurable results for the businesses
+            behind them.
+          </p>
+          <p>
+            <b>Let's build something remarkable together.</b>
           </p>
         </div>
 
