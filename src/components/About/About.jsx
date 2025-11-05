@@ -51,7 +51,7 @@ const About = () => {
             My time as{" "}
             <b>
               Project Manager and Scrum Master at Crystal House Aurora (USA)
-            </b>
+            </b>{" "}
             taught me that great products aren't just well-designed, they're
             built by well-functioning teams. I increased business revenue by 40%
             by optimizing revenue streams and improved team efficiency by 60%
