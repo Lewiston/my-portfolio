@@ -12,6 +12,7 @@
   /* Colors */
   --color-black-100: hsl(0, 0%, 6%);
   --color-black-200: hsl(230, 30%, 4%);
+  --color-black-300: hsl(231, 8%, 36%);
   --color-black-blur: hsla(230, 30%, 4%, 0.5);
   --color-white-100: hsl(0, 0%, 100%);
   --color-white-200: hsl(0, 0%, 88%);

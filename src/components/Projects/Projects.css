@@ -1,0 +1,67 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.project-cats {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0rem;
+  width: 100%;
+  white-space: no-wrap;
+  overflow-x: scroll;
+}
+
+.project-cats::-webkit-scrollbar {
+  display: none;
+}
+
+.project-cat.btn {
+  flex: 0 0 auto;
+  background-color: transparent;
+  color: var(--color-white-200);
+  border: 1px solid var(--color-grey-100);
+  transition: all 0.8s !important;
+}
+
+.btn-active,
+.project-cat.btn:hover {
+  background-color: var(--color-white-100) !important;
+  color: var(--color-black-200) !important;
+}
+
+.tab {
+  display: none;
+  animation: fade-in 0.4s ease-in;
+}
+
+.content-active.tab {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* Queries */
+@media screen and (max-width: 1200px) {
+  .content-active.tab {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content-active.tab {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-active.tab {
+    grid-template-columns: 1fr;
+  }
+}

@@ -40,10 +40,10 @@ const About = () => {
           </p>
           <br />
           <p>
-            As <b>Product Design Lead at Zotech Designs</b>, I've reduced
+            As <b>Product Design Lead at Zotech Company LTD</b>, I've reduced
             development time by over 50% by creating custom software designs
             that balance business goals with user requirements. Currently, as a
-            <b>freelancer</b>, I deliver end-to-end solutions, from branding to
+            <b> freelancer</b>, I deliver end-to-end solutions, from branding to
             deployment that have generated 20% more leads for my clients.
           </p>
           <br />

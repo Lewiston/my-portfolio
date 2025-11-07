@@ -1,0 +1,66 @@
+.project-card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--color-white-100);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  color: var(--color-white-100);
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-contents h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-contents span {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-white-100);
+  background-color: var(--color-accent-200);
+  padding: 0.25rem 0.5rem;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+.card-contents p,
+.card-contents a {
+  font-size: 16px;
+  color: var(--color-white-300);
+}
+
+.card-contents a {
+  text-decoration: underline;
+}
+
+.project-card:hover .card-contents {
+  opacity: 1;
+}
+
+/* Queries */
+
+@media screen and (max-width: 900px) {
+  .card-contents {
+    opacity: 1;
+  }
+}
