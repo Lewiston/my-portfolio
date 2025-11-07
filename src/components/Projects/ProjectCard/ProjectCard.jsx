@@ -10,9 +10,8 @@ const ProjectCard = ({ prop }) => {
       >
         <h3>{prop.title}</h3>
         <div className="card-contents">
-          <span>
-            {prop.role} - {prop.tools}
-          </span>
+          <span>{prop.tools}</span>
+          <p className="project-role">{prop.role}</p>
           <p>{prop.desc}</p>
           {prop.url && <a href={prop.url}>Visit site</a>}
         </div>

@@ -123,6 +123,149 @@ const contents = [
     url: "",
     type: "WordPress",
   },
+
+  {
+    id: 12,
+    image: "/assets/images/imgi_10.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "WordPress",
+  },
+
+  {
+    id: 13,
+    image: "/assets/images/imgi_13.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "WordPress",
+  },
+
+  {
+    id: 14,
+    image: "/assets/images/imgi_12.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Branding",
+  },
+
+  {
+    id: 15,
+    image: "/assets/images/imgi_11.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Branding",
+  },
+
+  {
+    id: 16,
+    image: "/assets/images/imgi_10.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Branding",
+  },
+
+  {
+    id: 17,
+    image: "/assets/images/imgi_11.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Branding",
+  },
+
+  {
+    id: 18,
+    image: "/assets/images/imgi_13.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Skylines",
+  },
+
+  {
+    id: 19,
+    image: "/assets/images/imgi_13.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "React",
+  },
+
+  {
+    id: 20,
+    image: "/assets/images/imgi_12.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "WordPress",
+  },
+
+  {
+    id: 21,
+    image: "/assets/images/imgi_11.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "React",
+  },
+
+  {
+    id: 22,
+    image: "/assets/images/imgi_12.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Shopify",
+  },
+
+  {
+    id: 23,
+    image: "/assets/images/imgi_10.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Skylines",
+  },
+
+  {
+    id: 24,
+    image: "/assets/images/imgi_13.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "Skylines",
+  },
 ];
 
 const Projects = () => {
@@ -135,7 +278,7 @@ const Projects = () => {
   return (
     <section className="projects container">
       <div className="past-projects">
-        <h2 className="heading">Some Projects I Have Worked On</h2>
+        <h2 className="heading">Some Sample Projects</h2>
         <div className="projects-tab">
           <ul className="project-cats">
             <li>
