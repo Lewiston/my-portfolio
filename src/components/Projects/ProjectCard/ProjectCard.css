@@ -2,7 +2,7 @@
   height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 1rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,24 +12,32 @@
   overflow: hidden;
 }
 
+.project-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  background-color: var(--color-white-100);
+  color: var(--color-black-100);
+  padding: 0.25rem 1rem;
+}
+
 .card-contents {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
-  background-color: hsla(0, 0%, 0%, 0.4);
+  justify-content: flex-end;
+  background: linear-gradient(
+    to bottom,
+    hsla(0, 0%, 0%, 0),
+    hsla(0, 0%, 0%, 0),
+    hsla(0, 0%, 0%, 0.8)
+  );
   color: var(--color-white-100);
   padding: 1rem;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: 0.5s;
-}
-
-.card-contents h3 {
-  font-size: 24px;
-  font-weight: 600;
 }
 
 .card-contents span {
@@ -46,7 +54,7 @@
 .card-contents p,
 .card-contents a {
   font-size: 16px;
-  color: var(--color-white-300);
+  color: var(--color-white-200);
 }
 
 .card-contents a {

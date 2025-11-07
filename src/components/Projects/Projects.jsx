@@ -16,7 +16,7 @@ const contents = [
 
   {
     id: 2,
-    image: "/assets/images/imgi_10.webp",
+    image: "/assets/images/imgi_11.webp",
     title: "This is the title",
     desc: "Description goes here",
     role: "Project Role",
@@ -27,7 +27,7 @@ const contents = [
 
   {
     id: 3,
-    image: "/assets/images/imgi_10.webp",
+    image: "/assets/images/imgi_12.webp",
     title: "This is the title",
     desc: "Description goes here",
     role: "Project Role",
@@ -38,7 +38,7 @@ const contents = [
 
   {
     id: 4,
-    image: "/assets/images/imgi_10.webp",
+    image: "/assets/images/imgi_13.webp",
     title: "This is the title",
     desc: "Description goes here",
     role: "Project Role",
@@ -60,7 +60,7 @@ const contents = [
 
   {
     id: 6,
-    image: "/assets/images/imgi_10.webp",
+    image: "/assets/images/imgi_11.webp",
     title: "This is the title",
     desc: "Description goes here",
     role: "Project Role",
@@ -71,7 +71,7 @@ const contents = [
 
   {
     id: 7,
-    image: "/assets/images/imgi_10.webp",
+    image: "/assets/images/imgi_12.webp",
     title: "This is the title",
     desc: "Description goes here",
     role: "Project Role",
@@ -82,13 +82,46 @@ const contents = [
 
   {
     id: 8,
-    image: "/assets/images/imgi_10.webp",
+    image: "/assets/images/imgi_13.webp",
     title: "This is the title",
     desc: "Description goes here",
     role: "Project Role",
     tools: "list of, tools used",
     url: "",
     type: "UI/UX",
+  },
+
+  {
+    id: 9,
+    image: "/assets/images/imgi_10.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "React",
+  },
+
+  {
+    id: 10,
+    image: "/assets/images/imgi_11.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "GoHighLevel",
+  },
+
+  {
+    id: 11,
+    image: "/assets/images/imgi_12.webp",
+    title: "This is the title",
+    desc: "Description goes here",
+    role: "Project Role",
+    tools: "list of, tools used",
+    url: "",
+    type: "WordPress",
   },
 ];
 

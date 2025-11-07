@@ -8,11 +8,11 @@ const ProjectCard = ({ prop }) => {
         className="project-card"
         style={{ background: `url(${prop.image})` }}
       >
+        <h3>{prop.title}</h3>
         <div className="card-contents">
           <span>
             {prop.role} - {prop.tools}
           </span>
-          <h3>{prop.title}</h3>
           <p>{prop.desc}</p>
           {prop.url && <a href={prop.url}>Visit site</a>}
         </div>

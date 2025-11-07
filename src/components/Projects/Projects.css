@@ -7,10 +7,14 @@
   }
 }
 
+.past-projects .heading {
+  text-align: center;
+}
+
 .project-cats {
   display: flex;
   gap: 1rem;
-  margin: 2rem 0rem;
+  margin: 4rem 0rem;
   width: 100%;
   white-space: no-wrap;
   overflow-x: scroll;
