@@ -8,9 +8,7 @@ const Footer = () => {
         <h2 className="heading">Let's Connect</h2>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/mbunganu-lewiston/">
-              LinkedIn
-            </a>
+            <a href="mailto:m11lewiston#@gmail.com">Email</a>
           </li>
           <li>
             <a href="http://github.com/lewiston">Github</a>
@@ -19,15 +17,17 @@ const Footer = () => {
             <a href="https://medium.com/@m11lewiston">Medium</a>
           </li>
           <li>
+            <a href="https://www.linkedin.com/in/mbunganu-lewiston/">
+              LinkedIn
+            </a>
+          </li>
+          <li>
             <a href="https://dribbble.com/mbunganu_lewiston">Dribbble</a>
           </li>
           <li>
             <a href="http://frontendmentor.io/profile/lewiston">
               Front-End Mentor
             </a>
-          </li>
-          <li>
-            <a href="mailto:m11lewiston#@gmail.com">Email</a>
           </li>
         </ul>
 
